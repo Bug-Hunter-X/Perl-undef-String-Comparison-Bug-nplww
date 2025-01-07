@@ -1,0 +1,1 @@
+This repository demonstrates a common Perl bug related to string comparison with undef values.  The bug.pl file contains code that incorrectly compares undef to a string. The bugSolution.pl file shows the corrected approach using defined().  Always explicitly check for defined values when dealing with potential undef variables in string comparisons to avoid unexpected results.
